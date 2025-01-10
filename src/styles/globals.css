@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.ant-layout-sider {
+    background: #1c834e!important;
+}
+.ant-menu {
+  background: #1c834e!important;
+}
+
+.ant-menu-item {
+  color: #fff!important;
+}
+
+.ant-menu-submenu-title {
+  color: #fff!important;
+}
+
+.ant-menu-item-selected {
+  background-color: #56a37a!important;
+  color: black
+}
+
+
+
+.ant-input-outlined:hover {
+    border-color: #000000;
+    background-color: #ffffff;
+}
+
+
+/* CropCalendar.module.css or your global CSS file */
+
+.highlighted-cell {
+    background-color: #e6f7ff !important; /* Light blue background for the entire cell */
+    border-radius: 4px;
+    color: #000; /* Text color for better visibility */
+    padding: 4px;
+  }
+  
+  .ant-calendar-date {
+    position: relative;
+  }
+  
+  .ant-calendar-date .highlighted-cell-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e6f7ff; /* Ensure the background color covers the entire cell */
+    border-radius: 4px;
+  }
+  
+.recently-joined-usertable {
+  overflow-x: auto !important;
+}
+
+.ant-table-wrapper{
+  max-width: none !important;
+  overflow-x: auto !important;
+
+}
+
+
+/* Add this to your CSS file or in a <style jsx> block in the component */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+ 
+}
+
