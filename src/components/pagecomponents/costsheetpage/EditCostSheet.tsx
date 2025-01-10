@@ -375,7 +375,7 @@ const EditCostSheet: React.FC<EditCostSheetProps> = ({ costSheetData }) => {
           </button>
           <button
             type="submit"
-            className=" bg-green-600 text-white px-4 py-2 rounded-md"
+            className=" #6d4c41 text-white px-4 py-2 rounded-md"
           >
             अद्यावधिक गर्नुहोस् (Update)
           </button>

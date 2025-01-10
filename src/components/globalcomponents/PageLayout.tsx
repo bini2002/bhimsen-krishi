@@ -11,11 +11,22 @@ import {
   FaLayerGroup,
   FaNewspaper,
   FaUserFriends,
-  FaUserGraduate
+  FaUserGraduate,
 } from "react-icons/fa";
-import { GiCalendar, GiChemicalDrop, GiFarmer, GiPlantRoots, GiShoppingCart } from "react-icons/gi";
+import {
+  GiCalendar,
+  GiChemicalDrop,
+  GiFarmer,
+  GiPlantRoots,
+  GiShoppingCart,
+} from "react-icons/gi";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import { MdBusinessCenter, MdOutlineCategory, MdOutlineWork, MdPhotoLibrary } from "react-icons/md";
+import {
+  MdBusinessCenter,
+  MdOutlineCategory,
+  MdOutlineWork,
+  MdPhotoLibrary,
+} from "react-icons/md";
 import {
   RiBarChartBoxLine,
   RiCalculatorLine,
@@ -26,7 +37,7 @@ import {
   RiMenuUnfoldLine,
   RiShieldUserLine,
   RiSlideshow2Fill,
-  RiUserLine
+  RiUserLine,
 } from "react-icons/ri";
 import { TbFileSpreadsheet } from "react-icons/tb";
 import { TiWeatherPartlySunny } from "react-icons/ti";
@@ -88,7 +99,7 @@ const PageLayout = ({ children }: { children: ReactNode }) => {
 
     if (session?.user?.name && session.user.name !== "undefined") {
       return (
-        <Avatar size="large" className="uppercase bg-green-600 cursor-pointer">
+        <Avatar size="large" className="uppercase #6d4c41 cursor-pointer">
           {session.user.name.charAt(0)}
         </Avatar>
       );
@@ -116,7 +127,7 @@ const PageLayout = ({ children }: { children: ReactNode }) => {
         collapsed={collapsed}
         style={siderStyle}
       >
-        <div className="demo-logo-vertical mb-4">
+        <div className="demo-logo-vertical mb-4 bg-[#f0be97] flex justify-center w-full p-4">
           <img src="/logo.png" alt="Logo" className="w-16 lg:w-24" />
         </div>
 

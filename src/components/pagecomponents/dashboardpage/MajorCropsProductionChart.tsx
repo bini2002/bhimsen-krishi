@@ -76,8 +76,8 @@ const MajorCropsProductionChart: React.FC = () => {
                 secondDate
               )}-${convertToNepaliNumbers(secondDate + 1)}`,
               data: yearTwoData,
-              backgroundColor: "#f0ce48",
-              borderColor: "#f0ce48",
+              backgroundColor: "#6d4c41",
+              borderColor: "#6d4c41",
               borderWidth: 1,
               barThickness: 20,
             },

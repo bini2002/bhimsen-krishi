@@ -48,8 +48,8 @@ export default function SignIn() {
         ></div>
         <div className="relative p-8 w-full grid lg:grid-cols-2 gap-8 lg:gap-16 bg-opacity-20">
           <div className="flex flex-col justify-center items-center">
-            <img src="/logo.png" alt="Logo" className="w-32 h-32 mb-4" />
-            <h1 className="text-lg lg:text-2xl font-medium lg:font-bold mb-2 text-center">
+            <img src="/logo.png" alt="Logo" className="w-60 h-auto mb-4" />
+            <h1 className="text-lg lg:text-2xl font-medium lg:font-bold mb-2 text-center text-primary">
               Empower Agriculture. Evolve your workforce
             </h1>
             <p className="hidden md:block text-sm lg:text-base text-gray-600 text-center">
@@ -60,7 +60,7 @@ export default function SignIn() {
           </div>
           <div className="p-2 lg:p-8">
             <div className="mb-4 lg:mb-8 text-center">
-              <h1 className="text-2xl font-bold mb-4">Sign In</h1>
+              <h1 className="text-2xl font-bold mb-4 text-secondary">Sign In</h1>
               <p className="text-gray-600">
                 Enter your credentials to access your account.
               </p>

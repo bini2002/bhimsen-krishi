@@ -35,8 +35,8 @@ export default function AdminProfile() {
       return (
         <Avatar
           size={128}
-          style={{ fontSize: "64px" }}
-          className="uppercase bg-green-600"
+          style={{ fontSize: "64px", backgroundColor: "#6d4c41" }}
+          className="uppercase "
         >
           {session.user.name === "undefined"
             ? "G"

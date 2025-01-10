@@ -224,7 +224,7 @@ const RolesList: React.FC = () => {
             <Button
               type="primary"
               onClick={handleSubmit}
-              className="bg-green-600 hover:bg-green-700 transition-all"
+              className="#6d4c41 hover:bg-green-700 transition-all"
             >
               Save Changes
             </Button>
